@@ -12,7 +12,9 @@ const Home: React.FC = () => {
     <>
       <div>
       <div className="mt-24">
-        <div className="flex justify-center mx-20">
+        <div className="flex justify-center mx-20 ">
+        <Property/>
+        <Property/>
         <Property/>
         </div>
       </div>

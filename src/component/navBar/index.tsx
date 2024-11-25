@@ -20,7 +20,7 @@ const Navbar = () => {
         <div className="flex items-center space-x-3">
           <div className="w-10 h-10 flex items-center justify-center">
             <img
-              src="/images/Logo.png" // Use root-relative path for public directory
+              src="/images/Logo.png" 
               alt="Logo"
               className="w-8 h-8"
             />
@@ -32,7 +32,7 @@ const Navbar = () => {
             to="/"
             className={({ isActive }) =>
               isActive
-                ? "text-gray-300 border-b-2 border-purple-500 px-4 py-2 rounded-lg"
+                ? "text-gray-300 border-b-2 border-bpurple-60 px-4 py-2 rounded-lg"
                 : "px-4 py-2 rounded-lg hover:text-gray-300"
             }
           >
@@ -42,7 +42,7 @@ const Navbar = () => {
             to="/about"
             className={({ isActive }) =>
               isActive
-                ? "text-gray-300 border-b-2 border-purple-500 px-4 py-2 rounded-lg"
+                ? "text-gray-300 border-b-2 border-bpurple-60 px-4 py-2 rounded-lg"
                 : "px-4 py-2 rounded-lg hover:text-gray-300"
             }
           >
@@ -52,7 +52,7 @@ const Navbar = () => {
             to="/properties"
             className={({ isActive }) =>
               isActive
-                ? "text-gray-300 border-b-2 border-purple-500 px-4 py-2 rounded-lg"
+                ? "text-gray-300 border-b-2 border-bpurple-60 px-4 py-2 rounded-lg"
                 : "px-4 py-2 rounded-lg hover:text-gray-300"
             }
           >
@@ -64,7 +64,7 @@ const Navbar = () => {
             to="/contact"
             className={({ isActive }) =>
               isActive
-                ? "text-gray-300 border-2 font-medium border-purple-500 px-4 py-2 rounded-lg"
+                ? "text-gray-300 border-2 font-medium border-bpurple-60 px-4 py-2 rounded-lg"
                 : "px-4 py-2 border-2 font-medium border-gray-600 rounded-lg hover:text-gray-300"
             }
           >
@@ -126,7 +126,7 @@ const Navbar = () => {
             onClick={handleLinkClick}
             className={({ isActive }) =>
               isActive
-                ? "text-gray-300 border-b-2 border-purple-500 px-4 py-2 rounded-lg"
+                ? "text-gray-300 border-b-2 border-bpurple-60 px-4 py-2 rounded-lg"
                 : "px-4 py-2 rounded-lg hover:text-gray-300"
             }
           >
@@ -137,7 +137,7 @@ const Navbar = () => {
             onClick={handleLinkClick}
             className={({ isActive }) =>
               isActive
-                ? "text-gray-300 border-b-2 border-purple-500 px-4 py-2 rounded-lg"
+                ? "text-gray-300 border-b-2 border-bpurple-60 px-4 py-2 rounded-lg"
                 : "px-4 py-2 rounded-lg hover:text-gray-300"
             }
           >
@@ -148,7 +148,7 @@ const Navbar = () => {
             onClick={handleLinkClick}
             className={({ isActive }) =>
               isActive
-                ? "text-gray-300 border-b-2 border-purple-500 px-4 py-2 rounded-lg"
+                ? "text-gray-300 border-b-2 border-bpurple-60 px-4 py-2 rounded-lg"
                 : "px-4 py-2 rounded-lg hover:text-gray-300"
             }
           >
